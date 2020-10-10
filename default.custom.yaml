@@ -2,4 +2,6 @@ patch:
   schema_list:
     - schema: cqkm 
     - schema: luna_pinyin_simp
+    - schema: cqlb
+    - schema: cqyx
   "menu/page_size": 6
