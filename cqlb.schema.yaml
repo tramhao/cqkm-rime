@@ -2,9 +2,9 @@
 # encoding: utf-8
 
 schema:
-  schema_id: cqkm
-  name: "超强快码"
-  version: "5.3.3"
+  schema_id: cqlb
+  name: "超强两笔"
+  version: "8.1.1"
   author:
     - 超强快码发明人：付东升
   description: |
@@ -50,8 +50,8 @@ engine:
     #- single_char_filter
 
 speller:
-  alphabet: '1abcdefghijklmnopqrstuvwxyz'   
-  initials: 'abcdefghijklmnopqrstuvwxyz'
+  alphabet: '1abcdefghijklmnopqrstuvwxyz;,./'   
+  initials: 'abcdefghijklmnopqrstuvwxyz;,./'
  # auto_clear: auto
   auto_select: true
   #max_code_length: 5
@@ -62,7 +62,7 @@ simplifier:
   opencc_config:  s2t.json
 
 translator:
-  dictionary: cqkm
+  dictionary: cqlb
   enable_charset_filter: false
   enable_completion: true
   enable_sentence: false
@@ -136,7 +136,7 @@ key_binder:
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "^`[a-z]*'?$"
+    reverse_lookup: "^`[a-z;,./]*'?$"
     i_reverse_lookup_pattern: "^i[a-z;,./]+$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$"
 

@@ -2,9 +2,9 @@
 # encoding: utf-8
 
 schema:
-  schema_id: cqkm
-  name: "超强快码"
-  version: "5.3.3"
+  schema_id: cqyx
+  name: "超强音形"
+  version: "5.1"
   author:
     - 超强快码发明人：付东升
   description: |
@@ -62,7 +62,7 @@ simplifier:
   opencc_config:  s2t.json
 
 translator:
-  dictionary: cqkm
+  dictionary: cqyx
   enable_charset_filter: false
   enable_completion: true
   enable_sentence: false
