@@ -51,7 +51,7 @@ engine:
 
 speller:
   alphabet: '1abcdefghijklmnopqrstuvwxyz;,./'   
-  initials: 'abcdefghijklmnopqrstuvwxyz;,./'
+  initials: 'abcdefghijklmnopqrstuvwxyz'
  # auto_clear: auto
   auto_select: true
   #max_code_length: 5
