@@ -82,8 +82,8 @@ reverse_lookup:
     - xform/([jqxy])v/$1u/
   comment_format:
     - xform/ /\ |\ /
-    - xform/$/ 〕）/
-    - xform/^/（编码：〔 /
+    - xform/$/)/
+    - xform/^/(/
     - xform/\ i.+?\ \|//
     - xform/\|\ i.+?\ 〕/\ 〕/
     - xform/(\ [^i]\S{3}).\ /$1\ /
