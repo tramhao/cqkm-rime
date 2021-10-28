@@ -1,0 +1,7 @@
+patch:
+  schema_list:
+    - {schema: cqkm} #超强快码
+    - {schema: cqkm_cm} #超强快码有重版
+
+
+
